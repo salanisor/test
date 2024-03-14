@@ -18,3 +18,8 @@ spec:
         name: guestbook-ui
         ports:
         - containerPort: 8080
+      securityContext:
+        runAsUser: 0
+        runAsGroup: 0
+      serviceAccount: test-sa
+      serviceAccountName: test-sa
