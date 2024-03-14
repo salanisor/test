@@ -9,9 +9,7 @@ spec:
   subdomain: guestbook
   port:
     targetPort: 80
-  tls:
-    insecureEdgeTerminationPolicy: Redirect
-    termination: edge
+  tls: {}
   to:
     kind: Service
     name: guestbook-ui
