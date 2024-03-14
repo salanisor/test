@@ -10,7 +10,9 @@ spec:
   host: guestbook.ocpcommops-np.cloud.aep.com
   port:
     targetPort: 80
-  tls: {}
+  tls:
+    insecureEdgeTerminationPolicy: Redirect
+    termination: edge
   to:
     kind: Service
     name: guestbook-ui
