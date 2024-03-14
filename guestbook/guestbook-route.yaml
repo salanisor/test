@@ -16,4 +16,3 @@ spec:
     kind: Service
     name: guestbook-ui
     weight: 100
-  wildcardPolicy: None
