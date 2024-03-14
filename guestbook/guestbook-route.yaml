@@ -7,7 +7,6 @@ metadata:
   namespace: guestbook
 spec:
   subdomain: guestbook
-  host: guestbook.ocpcommops-np.cloud.aep.com
   port:
     targetPort: 80
   tls:
